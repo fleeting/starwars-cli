@@ -1,0 +1,36 @@
+{
+  "name": "starwars-cli",
+  "version": "1.0.0",
+  "description": "Displays random Star Wars ASCII.",
+  "main": "index.js",
+  "bin": {
+    "starwars-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleeting/starwars-cli.git"
+  },
+  "keywords": [
+    "random",
+    "star wars",
+    "ascii",
+    "cli"
+  ],
+  "author": "James Fleeting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fleeting/starwars-cli/issues"
+  },
+  "homepage": "https://github.com/fleeting/starwars-cli#readme",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "4.0.0",
+    "meow": "7.0.1",
+    "strip-ansi": "^6.0.0",
+    "terminal-link": "^2.1.1",
+    "unique-random-array": "2.0.0"
+  }
+}
