@@ -17,6 +17,7 @@ module.exports={
 
 const chalkColors = {
   black: '#000',
+  grey: '#9d9c9c',
   white: '#b9bfca',
   green: '#a8cc8c',
   red: '#e88388',
