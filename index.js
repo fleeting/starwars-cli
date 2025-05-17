@@ -1,16 +1,13 @@
 #!/usr/bin/env node
 
-import process from 'node:process';
 import util from 'node:util';
 import meow from 'meow';
 import boxen from 'boxen';
 import chalk from 'chalk';
 import terminalLink from 'terminal-link';
 import uniqueRandomArray from 'unique-random-array';
-import asciiArt from './ascii.json' with { type: "json" };
+import asciiArt from './ascii.json' with { type: 'json' };
 const log = console.log;
-
-process.emitWarning = () => {};
 
 const chalkColors = {
   black: '#000',

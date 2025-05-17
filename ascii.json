@@ -66,7 +66,7 @@
   {
     "title": "R2-D2 & C3P0",
     "keywords": "r2-d2, c3p0, droid, droids, character, astromech, protocol droid, republic, resistance, rebellion",
-    "art": "                       /~\\\n                      |oo )\n                      _\\=/_\n      ___            /  _  \\\n     /() \\          //|/.\\|\\\\\n   _|_____|_        \\\\ \\_/  ||\n  | | === | |        \\|\\ /| ||\n  |_|  O  |_|        # _ _/  #\n   ||  O  ||          | | |\n   ||__*__||          | | |\n  |~ \\___/ ~|         []|[]\n  /=\\ /=\\ /=\\         | | |\n  [_]_[_]_[_]        /_]_[_\\\n",
+    "art": "                       /~\\\n                      |oo )\n                      _\\=/_\n      ___            /  _  \\\n     /() \\          //|/.\\| \\\\\n   _|_____|_        \\\\ \\_/  ||\n  | | === | |        \\|\\ /| ||\n  |_|  O  |_|        # _ _/  #\n   ||  O  ||          | | |\n   ||__*__||          | | |\n  |~ \\___/ ~|         []|[]\n  /=\\ /=\\ /=\\         | | |\n  [_]_[_]_[_]        /_]_[_\\\n",
     "color": "white",
     "link": "https://starwars.fandom.com/wiki/C-3PO",
     "credit": "gabe565"
