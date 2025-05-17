@@ -1,19 +1,16 @@
 #!/usr/bin/env node
 
+import process from 'node:process';
+import util from 'node:util';
+import meow from 'meow';
+import boxen from 'boxen';
+import chalk from 'chalk';
+import terminalLink from 'terminal-link';
+import uniqueRandomArray from 'unique-random-array';
+import asciiArt from './ascii.json' with { type: "json" };
 const log = console.log;
-const meow = require('meow');
-const boxen = require('boxen');
-const chalk = require('chalk');
-const stripAnsi = require('strip-ansi');
-const terminalLink = require('terminal-link');
-const uniqueRandomArray = require('unique-random-array');
-const asciiArt = require('./ascii.json');
 
-module.exports={
-  random: randomASCII,
-  all: allASCII,
-  keyword: keywordASCII
-};
+process.emitWarning = () => {};
 
 const chalkColors = {
   black: '#000',
@@ -27,19 +24,19 @@ const chalkColors = {
 };
 
 /* Return a random ASCII item. */
-function randomASCII() {
+export function randomASCII() {
   var arrayOfItems = uniqueRandomArray(asciiArt);
 
   return arrayOfItems();
 }
 
 /* Return all ASCII items. */
-function allASCII() {
+export function allASCII() {
   return asciiArt;
 }
 
 /* Search keywords and return a random ASCII that contains it. (ex: `vehicles` or `empire`) */
-function keywordASCII(inputKeyword) {
+export function keywordASCII(inputKeyword) {
   var items = [];
   for(var i=0;i<asciiArt.length;i++) {
     if(asciiArt[i].keywords.toLowerCase().indexOf(inputKeyword) != -1) {
@@ -64,9 +61,9 @@ function titleASCII(inputTitle) {
   return item;
 }
 
-function displayASCII(ascii) {
-  if(ascii.title != undefined) {
-    displayString = "\n";
+export function displayASCII(ascii) {
+  if(ascii && ascii.title != undefined) {
+    let displayString = "\n";
 
     if(!cli.flags.style.includes('ascii-only')) {
       displayString += chalk.yellow("A long time ago in a galaxy far,\nfar away....\n\n");
@@ -86,7 +83,7 @@ function displayASCII(ascii) {
     displayString += "\n";
 
     if(cli.flags.style.includes('no-color')) {
-      displayString = stripAnsi(displayString);
+      displayString = util.stripVTControlCharacters(displayString);
     }
 
     log(displayString);
@@ -104,7 +101,7 @@ const cli = meow('\n Usage ' +
                  '\n     <title>      Shows the specific ASCII ' +
                  '\n     --style      box, no-color, ascii-only ' +
                  '\n Examples ' +
-                 '\n     $ starwars-cli R2-D2 ' +
+                 '\n     $ starwars-cli R2-D2 --search' +
                  '\n              ___ ' +
                  '\n             / ()\\ ' +
                  '\n           _|_____|_ ' +
@@ -116,6 +113,7 @@ const cli = meow('\n Usage ' +
                  '\n          /=\\ /=\\ /=\\ ' +
                  '\n       ___[_]_[_]_[_]___ ',
                  {
+                  importMeta: import.meta,
                   flags: {
                     style: {
                       type: 'string',
@@ -125,23 +123,23 @@ const cli = meow('\n Usage ' +
                   }
                  });
 
-ascii = randomASCII();
+let ascii = randomASCII();
 
 if(cli.input[0] != undefined && cli.flags.search) {
   /* Get by keyword. */
 
-  inputKeyword = cli.input[0].toLowerCase();
+  let inputKeyword = cli.input[0].toLowerCase();
   var keywordascii = keywordASCII(inputKeyword);
   displayASCII(keywordascii);
 } else if(cli.flags.all) {
   var asciiItems = allASCII();
-  for(i=0;i<asciiItems.length;i++) {
+  for(var i=0;i<asciiItems.length;i++) {
     displayASCII(asciiItems[i]);
   }
 } else if(cli.input[0] != undefined && cli.flags.search === undefined && cli.flags.all === undefined) {
   /* Get by title. */
 
-  inputTitle = cli.input[0].toLowerCase();
+  var inputTitle = cli.input[0].toLowerCase();
   var titleascii = titleASCII(inputTitle);
   displayASCII(titleascii);
 } else if(cli.input[0] == undefined) {

@@ -24,7 +24,7 @@ If you want it to run whenever you open a new terminal window:
       --style <options>     Tweaks the style (opts: box, no-color, ascii-only)
       <title>     Shows the specific ASCII (ref ascii.json)
   Examples
-      $ starwars-cli R2-D2 --style ascii-only
+      $ starwars-cli R2-D2 --search --style ascii-only
                ___
               / ()\\
             _|_____|_
@@ -71,4 +71,4 @@ Released under MIT.
 
 ----
 
-Handcrafted with ♥ in Austin, Texas.
+Handcrafted with ♥ in Boston, MA.

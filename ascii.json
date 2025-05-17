@@ -1,7 +1,7 @@
 [
   {
     "title": "R2-D2",
-    "keywords": "droid, droids, character, astromech, republic, resistance, rebellion",
+    "keywords": "r2-d2, droid, droids, character, astromech, republic, resistance, rebellion",
     "art": "       ___        \n      / ()\\       \n    _|_____|_     \n   | | === | |    \n   |_|  O  |_|    \n    ||  O  ||     \n    ||__*__||     \n   |~ \\___/ ~|    \n   /=\\ /=\\ /=\\    \n___[_]_[_]_[_]___",
     "color": "blue",
     "link": "https://starwars.fandom.com/wiki/R2-D2",
@@ -9,7 +9,7 @@
   },
   {
     "title": "AT-AT",
-    "keywords": "empire, walker, vehicle, vehicles",
+    "keywords": "at-at, empire, walker, vehicle, vehicles",
     "art": "               ________\n          _,.-Y  |  |  Y-._\n      .-~\"   ||  |  |  |   \"-.\n      I\" \"\"==\"|\" !\"\"! \"|\"[]\"\"|     _____\n      L__  [] |..------|:   _[----I\" .-{\"-.\n     I___|  ..| l______|l_ [__L]_[I_/r(=}=-P\n    [L______L_[________]______j~  '-=c_]/=-^\n     \\_I_j.--.\\==I|I==_/.--L_]\n       [_((==)[`-----\"](==)j\n          I--I\"~~\"\"\"~~\"I--I\n          |[]|         |[]|\n          l__j         l__j\n          |!!|         |!!|\n          |..|         |..|\n          ([])         ([])\n          ]--[         ]--[\n          [_L]         [_L] \n         /|..|\\       /|..|\\\n        `=}--{='     `=}--{='\n       .-^--r-^-.   .-^--r-^-.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "color": "red",
     "link": "https://starwars.fandom.com/wiki/All_Terrain_Armored_Transport",
@@ -17,7 +17,7 @@
   },
   {
     "title": "X-wing Starfighter",
-    "keywords": "republic, resistance, rebellion, vehicle, vehicles",
+    "keywords": "x-wing, xwing, republic, resistance, rebellion, vehicle, vehicles",
     "art": "           __\n.-.__      \\ .-.  ___  __\n|_|  '--.-.-(   \\/\\;;\\_\\.-._______.-.\n(-)___     \\ \\ .-\\ \\;;\\(   \\       \\ \\\n Y    '---._\\_((Q)) \\;;\\\\ .-\\     __(_)\n I           __'-' / .--.((Q))---'    \\,\n I     ___.-:    \\|  |   \\'-'_          \\\n A  .-'      \\ .-.\\   \\   \\ \\ '--.__     '\\\n |  |____.----((Q))\\   \\__|--\\_      \\     '\n    ( )        '-'  \\_  :  \\-' '--.___\\\n     Y                \\  \\  \\       \\(_)\n     I                 \\  \\  \\         \\,\n     I                  \\  \\  \\          \\\n     A                   \\  \\  \\          '\\\n     |                    \\  \\__|           '\n                           \\_:.  \\\n                             \\ \\  \\\n                              \\ \\  \\\n                               \\_\\_|\n",
     "color": "white",
     "link": "https://starwars.fandom.com/wiki/X-wing_starfighter",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Viper Probe Droid (XJ9-CS14)",
-    "keywords": "droid, droids, empire, character",
+    "keywords": "viper, probe droid, droid, droids, empire, character",
     "art": "             _____\n         ___/O   O\\____\n        / O        O   \\\n        \\______________/\n   -===|____\\///\\\\\\/_____\n       \\----------------/\n        \\______________/  \\/\n         /\\__________/    //\n  >=o\\  // //\\\\   || \\\\  //\n     \\\\o/ //  \\o  ||  \\o//\n         //    || ||\n     /o==o     |o \\o==o\n    //         //     \\\\\n    /\\        //       /\\\n              /\\\n",
     "color": "grey",
     "link": "https://starwars.fandom.com/wiki/Viper_probe_droid",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Star Wars Logo",
-    "keywords": "text, logo, title",
+    "keywords": "text, logo, title, starwarslogo",
     "art": ".        .               .       .     .            .\n   .           .        .                     .        .            .\n             .               .    .          .              .   .         .\n               _________________      ____         __________\n .       .    /                 |    /    \\    .  |          \\\n     .       /    ______   _____| . /      \\      |    ___    |     .     .\n             \\    \\    |   |       /   /\\   \\     |   |___>   |\n           .  \\    \\   |   |      /   /__\\   \\  . |         _/               .\n .     ________>    |  |   | .   /            \\   |   |\\    \\_______    .\n      |            /   |   |    /    ______    \\  |   | \\           |\n      |___________/    |___|   /____/      \\____\\ |___|  \\__________|    .\n  .     ____    __  . _____   ____      .  __________   .  _________\n       \\    \\  /  \\  /    /  /    \\       |          \\    /         |      .\n        \\    \\/    \\/    /  /      \\      |    ___    |  /    ______|  .\n         \\              /  /   /\\   \\ .   |   |___>   |  \\    \\\n   .      \\            /  /   /__\\   \\    |         _/.   \\    \\            +\n           \\    /\\    /  /            \\   |   |\\    \\______>    |   .\n            \\  /  \\  /  /    ______    \\  |   | \\              /          .\n .       .   \\/    \\/  /____/      \\____\\ |___|  \\____________/  \n                               .                                        .\n     .                           .         .               .                 .\n                .                                   .            .\n",
     "color": "yellow",
     "link": "https://starwars.fandom.com/wiki/Star_Wars",
@@ -54,5 +54,21 @@
     "color": "white",
     "link": "https://starwars.fandom.com/wiki/Main_Page",
     "credit": "Lennert Stock"
+  },
+  {
+    "title": "20th Century Fox Logo",
+    "keywords": "text, logo, studio, intro, 20th century",
+    "art": "            ..........   @@@@@    @@@@@             ...........\n            .........   @     @  @     @            ..........\n            ........       @@@   @     @             ........\n            .......      @@      @     @             ........\n            ......      @@@@@@@   @@@@@  th          .......\n            .....     -----------------------        .....\n            ....        C  E  N  T  U  R  Y          ....\n            ...       -----------------------        ...\n            ..        @@@@@ @@@@@ @   @ @@@@@        ..\n            ==          @   @      @ @    @          ==\n          __||__        @   @@@@    @     @        __||__\n         |      |       @   @      @ @    @       |      |\n_________|______|_____  @   @@@@@ @   @   @  _____|______|_________\n",
+    "color": "yellow",
+    "link": "https://starwars.fandom.com/wiki/20th_Century_Studios",
+    "credit": "gabe565"
+  },
+  {
+    "title": "R2-D2 & C3P0",
+    "keywords": "r2-d2, c3p0, droid, droids, character, astromech, protocol droid, republic, resistance, rebellion",
+    "art": "                       /~\\\n                      |oo )\n                      _\\=/_\n      ___            /  _  \\\n     /() \\          //|/.\\|\\\\\n   _|_____|_        \\\\ \\_/  ||\n  | | === | |        \\|\\ /| ||\n  |_|  O  |_|        # _ _/  #\n   ||  O  ||          | | |\n   ||__*__||          | | |\n  |~ \\___/ ~|         []|[]\n  /=\\ /=\\ /=\\         | | |\n  [_]_[_]_[_]        /_]_[_\\\n",
+    "color": "white",
+    "link": "https://starwars.fandom.com/wiki/C-3PO",
+    "credit": "gabe565"
   }
 ]
