@@ -33,7 +33,6 @@
     "boxen": "^8.0.1",
     "chalk": "5.4.1",
     "meow": "13.2.0",
-    "strip-ansi": "^6.0.0",
     "terminal-link": "^4.0.0",
     "unique-random-array": "4.0.0",
     "util": "^0.12.5"
